@@ -1,0 +1,20 @@
+DATA CLEANING REPORT
+==================================================
+
+Original file: Messy_Employee_dataset.csv
+Cleaned on: 2026-03-12 17:42:21
+
+Cleaning Steps:
+------------------------------
+[17:42:21] Loaded data - 1020 rows, 12 columns
+[17:42:21] Converted Join_Date to date format
+[17:42:21] Filled 211 missing values in Age
+[17:42:21] Filled 24 missing values in Salary
+[17:42:21] Standardized 7 text columns
+[17:42:21] Data validation passed
+
+Final Dataset:
+------------------------------
+Rows: 1020
+Columns: 12
+Column names: Employee_ID, First_Name, Last_Name, Age, Department_Region, Status, Join_Date, Salary, Email, Phone, Performance_Score, Remote_Work
